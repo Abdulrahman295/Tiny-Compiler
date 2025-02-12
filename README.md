@@ -9,12 +9,19 @@
 </div>
 
 ## ✨ Features
+- **Tokenization:**  Efficiently scans TINY language code to convert it into a structured list of tokens, ensuring each token's type and value is correctly identified and preserved.
 
+- **Syntax Tree Generation:**  Utilizes a recursive descent parser to build a detailed syntax tree from the tokenized input, providing a clear and hierarchical representation of the source code.
+
+- **Validation and Error Handling:**  checks the code for syntax errors and inconsistencies, providing informative error messages to assist in debugging and code correction.
+
+- **GUI Support:**  Delivers an interactive graphical user interface that allows users to input code, view tokenization results, and visualize the generated syntax tree, significantly enhancing the user experience.
 
 ## ☑️ Prerequisites
 Before running the application, ensure you have the following installed:
-- Python 3.7 or higher
-- Graphize
+- [Python 3.7 or higher](https://www.python.org/downloads/)
+- [Graphize](https://www.graphviz.org/download/)
+
 
 ## 🗺️ Installation
 1. Clone this repo:
